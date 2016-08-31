@@ -1,2 +1,5 @@
 <?php
-phpinfo();
+
+require_once "tpl/layout.tpl";
+
+?>

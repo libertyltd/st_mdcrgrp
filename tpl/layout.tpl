@@ -9,6 +9,7 @@
         <header>
         </header>
         <main>
+            <h1>Сайт находится на техническом обслуживании</h1>
         </main>
         <footer>
         </footer>
