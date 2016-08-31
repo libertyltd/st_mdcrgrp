@@ -1,0 +1,28 @@
+{
+  "name": "inservice",
+  "version": "1.0.0",
+  "description": "Веб представление сервиса для записи на СТО",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.101m.ru/101media/inservice.git"
+  },
+  "author": "lr",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.0.3",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp.spritesmith": "^6.2.0",
+    "lodash": "^4.14.0",
+    "watchify": "^3.7.0"
+  }
+}
