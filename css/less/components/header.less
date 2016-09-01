@@ -21,6 +21,11 @@ header {
         text-decoration: none;
         margin: 20px 40px 0 0;
 
+        @media (max-width: 887px) {
+            display: block;
+            text-align: center;
+        }
+
         img {
             display: inline-block;
             width: 195px;
@@ -36,7 +41,7 @@ header {
         
         @media (max-width: 887px) {
             display: block;
-            margin: 20px 0;
+            margin: 20px 0 180px 0;
             float: none;
         }
 
@@ -45,7 +50,8 @@ header {
             float: left;
 
             @media (max-width: 887px) {
-                float: none;
+                //float: none;
+                clear: right;
             }
 
 
@@ -85,6 +91,7 @@ header {
 
         @media (max-width:  887px) {
             font-size: 3em;
+            text-align: left;
         }
     }
 
