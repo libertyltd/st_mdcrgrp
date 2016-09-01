@@ -14,9 +14,12 @@
 
         <title>Medicor Group</title>
 
+        <script type="application/javascript" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+
         <script type="text/javascript" src="/js/lib/jquery-3.1.0.min.js"></script>
 
         <script type="text/javascript" src="/js/components/Preloader.js"></script>
+        <script type="text/javascript" src="/js/components/Map.js"></script>
 
         <script type="text/javascript" src="/js/main.js"></script>
 
@@ -93,15 +96,40 @@
                 </div>
                 <ul class="cols cols-2">
                     <li><b>ООО &laquo;Медикор Групп&raquo;</b> Выступает не только поставщиком продукции, но и партнером в реализации идеи комплексного лечения.</li>
-                    <li><b>Medicor Group</b> предлагает комплексные медиинские решения для лечебных учреждений, четко направленные на улучшение качества оказания
+                    <li><b>Medicor Group</b> предлагает комплексные медицинские решения для лечебных учреждений, четко направленные на улучшение качества оказания
                         медицинской помощи пациенту и оптимальные условия труда для персонала.
                     </li>
                 </ul>
 
                 <h2 id="cycle" class="segment">Цикл поставки оборудования</h2>
             </div>
+            <div class="cycle_segment">
+                <div class="container">
+                    <img class="adaptive" src="/css/img/cycle.png" alt="Цикл поставки оборудования">
+                </div>
+            </div>
+            <div class="container">
+                <h2 id="contacts" class="segment">Контакты</h2>
+                <ul class="cols cols-2">
+                    <li id="map"></li>
+                    <li>
+                        <a href="mailto:info@medicor-group.com" class="link link_email">info@medicor-group.com</a><br>
+                        <a href="tel:+74955435673" class="link link_phone">+7 (495) 543-56-73</a><br>
+                        <a href="tel:+74957217750" class="link link_phone">+7 (495) 721-77-50</a>
+                        <div class="address">
+                            101000, Москва<br>
+                            ул. Новорязанская, 18<br>
+                            БЦ STENDHAL PLAZA
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </main>
         <footer>
+            <div class="container">
+                <img src="/css/img/logo_only.png" alt="Medicor Group Medical equipment & supply">
+                <p>&copy; 2016 ООО &laquo;Медикор Групп&raquo;. Все права защищены.</p>
+            </div>
         </footer>
     </body>
 </html>

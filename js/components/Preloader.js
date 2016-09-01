@@ -3,11 +3,19 @@ var Preloader = function (selector) {
     var self = this;
 
     $(document).ready(function () {
-        self.$element.hide('fast', function() {
+        self.$element.animate({
+            opacity: 0,
+        }, 2000, function () {
             self.$element.remove();
-            $('body').find('header').show("slow");
-            $('body').find('main').show("slow");
-            $('body').find('footer').show("slow");
+            $('body').find('header').animate({
+                opacity: 1,
+            }, 500);
+            $('body').find('main').animate({
+                opacity: 1,
+            }, 700);
+            $('body').find('footer').animate({
+                opacity: 1,
+            }, 900);
         });
     });
 };
