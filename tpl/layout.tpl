@@ -131,5 +131,15 @@
                 <p>&copy; 2016 ООО &laquo;Медикор Групп&raquo;. Все права защищены.</p>
             </div>
         </footer>
+
+        <div class="window">
+            <div class="window_body">
+                <div class="window_header">
+                    Сервисное сообщение
+                    <a href="#" class="close">x</a>
+                </div>
+                <p><strong>Внимание!</strong> Сайт находится в режиме технического обслуживания, некоторый функционал может быть недоступен.</p>
+            </div>
+        </div>
     </body>
 </html>

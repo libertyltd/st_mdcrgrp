@@ -16,6 +16,12 @@ var Preloader = function (selector) {
             $('body').find('footer').animate({
                 opacity: 1,
             }, 900);
+
+            $('.window').css({display: 'block'});
+            $('.window .close').bind('click', function() {
+                $('.window').css({display: 'none'});
+                return false;
+            });
         });
     });
 };
