@@ -38,7 +38,6 @@
 
                 <ul class="menu">
                     <li><a href="#partners" class="slow_scroll">Партнеры</a></li>
-                    <li><a href="#cycle" class="slow_scroll">Цикл поставки оборудования</a></li>
                     <li><a href="#contacts" class="slow_scroll">Контакты</a></li>
                 </ul>
 
@@ -49,7 +48,7 @@
             <div class="container">
                 <h2>Лучшие результаты лечения пациентов с помощью <br> современного оборудования и передовых технологий</h2>
                 <ul class="cols cols-2">
-                    <li><b>&laquo;Медикор Групп&raquo;</b> - динамично развивающаяся компания, основной миссией которой явялется
+                    <li><b>ООО &laquo;Медикор Групп&raquo;</b> - динамично развивающаяся компания, основной миссией которой явялется
                         реализация эффективных инновационных медицинских ршений для повышения качества жизни конечного потребителя.</li>
                     <li><b>Medicor Group LLC</b> предоставляет широкий ассортимент высокотехнологичной продукции ведущих
                         западных компаний-производителей.</li>
@@ -100,13 +99,6 @@
                         медицинской помощи пациенту и оптимальные условия труда для персонала.
                     </li>
                 </ul>
-
-                <h2 id="cycle" class="segment">Цикл поставки оборудования</h2>
-            </div>
-            <div class="cycle_segment">
-                <div class="container">
-                    <img class="adaptive" src="/css/img/cycle.png" alt="Цикл поставки оборудования">
-                </div>
             </div>
             <div class="container">
                 <h2 id="contacts" class="segment">Контакты</h2>
@@ -119,7 +111,7 @@
                         <div class="address">
                             101000, Москва<br>
                             ул. Новорязанская, 18<br>
-                            БЦ STENDHAL PLAZA
+                            БЦ Stendhal Plaza
                         </div>
                     </li>
                 </ul>
@@ -127,18 +119,18 @@
         </main>
         <footer>
             <div class="container">
-                <img src="/css/img/logo_only.png" alt="Medicor Group Medical equipment & supply">
-                <p>&copy; 2016 ООО &laquo;Медикор Групп&raquo;. Все права защищены.</p>
+                <p>Medicor Group. All right reserved</p>
+                <p>2016</p>
             </div>
         </footer>
 
         <div class="window">
             <div class="window_body">
                 <div class="window_header">
-                    Сервисное сообщение
+                    Внимание!
                     <a href="#" class="close">x</a>
                 </div>
-                <p><strong>Внимание!</strong> Сайт находится в режиме технического обслуживания, некоторый функционал может быть недоступен.</p>
+                <p>Сайт находится в режиме технического обслуживания.</p>
             </div>
         </div>
     </body>
