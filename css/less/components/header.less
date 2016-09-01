@@ -14,6 +14,12 @@ header {
     filter: blur(5px);
     filter: url('/css/img/blur.svg#blur');*/
 
+    @media (max-width:  887px) {
+        height: 459px;
+    }
+
+
+
     padding: 20px;
 
     .logo {
@@ -23,7 +29,7 @@ header {
 
         @media (max-width: 887px) {
             display: block;
-            text-align: center;
+            text-align: right;
         }
 
         img {
@@ -41,7 +47,7 @@ header {
         
         @media (max-width: 887px) {
             display: block;
-            margin: 20px 0 180px 0;
+            margin: 20px;// 0 180px 0;
             float: none;
         }
 
@@ -50,8 +56,10 @@ header {
             float: left;
 
             @media (max-width: 887px) {
-                //float: none;
-                clear: right;
+                float: none;
+                text-align: center;
+                background: rgba(0, 0, 0, 0.6);
+                margin-bottom: 20px;
             }
 
 
@@ -67,6 +75,7 @@ header {
                 @media (max-width:  887px) {
                     float: none;
                     margin: 18px 20px;
+                    color: #ffffff;
                 }
 
                 -webkit-transition: all 0.5s ease-out 0.1s;
@@ -90,9 +99,24 @@ header {
         color: #ffffff;
 
         @media (max-width:  887px) {
+            display: none;
+            /*
             font-size: 3em;
             text-align: left;
             padding: 0 0 0 18px;
+            */
+        }
+
+        &.mobile {
+            display: none;
+
+            @media (max-width:  887px) {
+                display: block;
+                font-size: 1.5em;
+                margin: 0 0 60px 0;
+                padding: 20px 0;
+                color: #343432;
+            }
         }
     }
 

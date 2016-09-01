@@ -35,6 +35,7 @@
                 <a href="/" title="Medicor Group" class="logo">
                     <img src="/css/img/logo.png" alt="Medicor Group Medical equipment & supply">
                 </a>
+                <p class="lead mobile">Medical Equipment & Supply</p>
 
                 <ul class="menu">
                     <li><a href="#partners" class="slow_scroll">Партнеры</a></li>
