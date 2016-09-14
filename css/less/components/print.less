@@ -1,0 +1,80 @@
+@media print {
+
+    header {
+        background: transparent;
+
+        .menu {
+            display: none;
+        }
+
+        p.lead:not(.mobile) {
+            display: none;
+        }
+
+        p.lead.mobile {
+            display: block;
+            float: right;
+        }
+    }
+
+    main {
+        h2 {
+            display: none;
+        }
+        .container {
+            ul {
+                display: none;
+            }
+        }
+
+        .partners {
+            .partners__item {
+                display: inline-block;
+                border: none;
+                padding: 0;
+                width: auto;
+                height: 50px;
+                margin: 20px;
+
+                img {
+                    width: 100px;
+                    height: auto;
+                    max-height: 50px;
+
+                    filter: none;
+                    -webkit-filter: none;
+                }
+            }
+        }
+
+        #contacts + ul {
+            display: block;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+
+            li {
+                display: block;
+
+                .link {
+                    text-decoration: none;
+                }
+
+                .address {
+                    font-weight: bold;
+                    font-size: 1em;
+                    color: #343432;
+                }
+            }
+
+            #map {
+                display: none;
+            }
+        }
+    }
+
+
+    footer {
+        display: none;
+    }
+}
