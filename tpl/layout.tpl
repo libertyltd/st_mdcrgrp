@@ -107,8 +107,8 @@
                     <li id="map"></li>
                     <li>
                         <a href="mailto:info@medicor-group.com" class="link link_email">info@medicor-group.com</a><br>
-                        <a href="tel:+74955435673" class="link link_phone">+7 (495) 543-56-73</a><br>
-                        <a href="tel:+74957217750" class="link link_phone">+7 (495) 721-77-50</a>
+                        <a href="tel:+74952220041" class="link link_phone">+7 (495) 222-00-41</a><br>
+                        <a href="tel:+74952220043" class="link link_phone">+7 (495) 222-00-43</a>
                         <div class="address">
                             101000, Москва<br>
                             ул. Новорязанская, 18<br>
@@ -121,7 +121,7 @@
         <footer>
             <div class="container">
                 <p>Medicor Group. All right reserved</p>
-                <p>2016</p>
+                <p>2016-2017</p>
             </div>
         </footer>
 
